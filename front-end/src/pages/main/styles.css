@@ -1,0 +1,165 @@
+.news-list{
+    display: flex;
+    padding: 5px;
+}
+.news-list ul{
+    margin: auto;
+    list-style: none;
+    text-align: center;
+}
+.news-list ul.loading, div.loading{
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    text-align: center;;
+}
+.news-list ul.loading li, div.loading li{
+   position: relative;
+   top : 50%;
+   margin-top: -25px;
+
+}
+.news-list ul  li.economia, .tributario, .trabalhista, .tecnologia, .empresarial, .contabel, .carreira, .societario{
+    max-width: 600px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+    
+}
+    .news-list ul  li.economia{
+    background:#5617B3;
+   }
+   .news-list ul  li.tributario{
+       background:#FFB354;
+   }
+   .news-list ul  li.trabalhista{
+       background:#1BCC44;
+   }
+   .news-list ul  li.tecnologia{
+       background:#CC2158;
+   }
+   .news-list ul  li.empresarial{
+       background:#FC8781;
+   }
+   .news-list ul  li.contabel{
+       background:#2fa1b5;
+    }
+    .news-list ul  li.carreira{
+        background:#de2566;
+    }
+    .news-list ul  li.societario{
+        background:#3a3a3a;
+    }
+    .news-list ul li img{
+       width: 100%
+    }
+.news-list ul li p.title{
+    color: #fff;
+    font: italic bold 18px arial, sans-serif;
+    background: #da552f;
+    padding: 3px;
+    border: solid 1px #fff;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.news-list ul li div.footer div.contentTheme{
+  display: flex;
+}
+.news-list ul li div.footer div.contentTheme p.cicle {
+    width: 15px;
+    height: 15px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    background: #fff;
+}
+.news-list ul li div.footer div.contentTheme p.theme{
+    background: #fff;
+    color: #8A3BFF;
+    margin-left: 3px;
+    font: italic bold 10px arial, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 25px 25px 25px 25px;
+    padding: 2px;
+}
+.news-list ul li div.footer div.contentTheme p.date{
+    color: #fff;
+    width: 90%;
+    text-transform: uppercase;
+    font: italic bold 12px arial, sans-serif;
+    text-align: right;  
+}
+ div.actions{
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 10px;
+}
+div.actions div, button{
+    padding:10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.actions button[disabled]{
+    opacity: 0.0;
+    cursor: default;
+}
+
+
+div.actions button[disabled]:hover{
+       opacity: 0.0;
+       cursor: default;
+ }
+
+div.actions button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+div.modeSlide{
+    position: fixed;
+    background: rgba(139, 1, 128, 0.5);
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+   
+}
+
+div.modeSlide button{
+    width: 55px;
+    height: 55px;
+    background: rgba(241, 130, 3, 0.8);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+div.modeSlide button:hover{
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    background: #560150;
+}
